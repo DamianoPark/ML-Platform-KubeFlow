@@ -14,5 +14,15 @@
   - Production Phase
     - Online/batch Prediction을 위한 KF Serving / TF Serving 을 통한 모델 배포
     - MetaData/TensorBoard 를 통한 Model Performance 모니터
-    - ML Pipeline 구축 : `Model-Training` -> `Serving` -> `Monitoring`  
+    - ML Pipeline 구축 : `Model-Training` -> `Serving` -> `Monitoring`    
+---  
+### ML Pipeline with KubeFlow
+#### Index  
+- 1. Traing Fashion Mnist with Fairing
+- 2. Tuning Hyper Parameter with Katib  
+- 3. Saving TF Model  
+- 4. ML Inference Service with KFserving
+
+#### Docker File  
+[Jaewoo Park - Docker Repositories](https://hub.docker.com/u/jaewoo201)  
     
