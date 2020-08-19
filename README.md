@@ -17,8 +17,11 @@
     - ML Pipeline 구축 : `Model-Training` -> `Serving` -> `Monitoring`    
 ---  
 ### ML Pipeline with KubeFlow  
-PMS를 이용할 고객사의 입장에서, 쿠버네티스를 활용한 `머신러닝 파이프라인` 구축 및 `ML 추론 서비스` 구현  
-
+- PMS를 이용할 고객사의 입장에서, 쿠버네티스를 활용한 `머신러닝 파이프라인` 구축 및 `ML 추론 서비스` 구현  
+  - TensorFlow 이용한 모델 학습
+  - Katib 이용하여 Hyper Parameter 자동 Tuning  
+  - TF 모델 저장  
+  - 저장된 모델을 이용하여 Wev Service 배포  
 #### Index  
 - 1. Traing Fashion Mnist with Fairing
 - 2. Tuning Hyper Parameter with Katib  
