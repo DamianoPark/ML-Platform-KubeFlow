@@ -16,7 +16,9 @@
     - MetaData/TensorBoard 를 통한 Model Performance 모니터
     - ML Pipeline 구축 : `Model-Training` -> `Serving` -> `Monitoring`    
 ---  
-### ML Pipeline with KubeFlow
+### ML Pipeline with KubeFlow  
+PMS를 이용할 고객사의 입장에서, 쿠버네티스를 활용한 `머신러닝 파이프라인` 구축 및 `ML 추론 서비스` 구현  
+
 #### Index  
 - 1. Traing Fashion Mnist with Fairing
 - 2. Tuning Hyper Parameter with Katib  
